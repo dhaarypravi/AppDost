@@ -1,0 +1,21 @@
+/* In your About.css file */
+
+.next-bg {
+  background-color: #0d121c; /* A very dark background color */
+  
+  --dot-size: 80px; /* Adjust this to change the density of the dots */
+  --line-size: 2000px; /* Adjust this to change the spacing of the lines */
+  
+  background-image:
+    /* Layer 1: Vertical lines */
+    linear-gradient(to right, #4b5563 1px, transparent 1px),
+    /* Layer 2: Horizontal lines */
+    linear-gradient(to bottom, #4b5563 1px, transparent 1px),
+    /* Layer 3: Dotted grid */
+    radial-gradient(circle, #4b5563 1px, transparent 1px);
+    
+  background-size: 
+    var(--line-size) 100%,  /* Size for vertical lines */
+    100% var(--line-size),  /* Size for horizontal lines */
+    var(--dot-size) var(--dot-size); /* Size for the dotted grid */
+}
