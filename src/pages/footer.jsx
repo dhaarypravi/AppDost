@@ -108,14 +108,14 @@ const Footer = () => {
               <li className="flex items-start text-gray-400">
                 <Mail size={18} className="text-blue-400 mr-3 mt-1 flex-shrink-0" />
                 <span>
-                  <a href="mailto:contact@appdost.in" className="hover:text-white transition">contact@appdost.in</a>
+                  <a href="mailto:pandeykhushhi@gmail.com" className="hover:text-white transition">pandeykhushhi@gmail.com</a>
                 </span>
               </li>
               <li className="flex items-start text-gray-400">
                 <Phone size={18} className="text-blue-400 mr-3 mt-1 flex-shrink-0" />
                 <span className="flex flex-col">
-                  <a href="tel:+917635075422" className="hover:text-white transition">+91 76350 75422</a>
-                  <a href="tel:+911169290750" className="hover:text-white transition">+91 11 6929 0750</a>
+                  <a href="tel:+916264696956" className="hover:text-white transition">+91 6264 696956</a>
+                  <a href="tel:+916264696956" className="hover:text-white transition">+91 6264 696956</a>
                 </span>
               </li>
               <li className="flex items-start text-gray-400">
@@ -124,7 +124,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start text-gray-400">
                 <MapPin size={18} className="text-blue-400 mr-3 mt-1 flex-shrink-0" />
-                <span>3 Offices: Banka (HQ), Motihari, Patna</span>
+                <span>x Offices: xxxxx (HQ), xxxxx, Raigarh</span>
               </li>
             </ul>
           </div>
